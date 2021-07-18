@@ -12,6 +12,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 import PIL
 import time
+from keras.utils.data_utils import get_file
 
 app = flask.Flask(__name__)
 
@@ -26,18 +27,23 @@ def create_foodlist(path):
             #print("Appended food - " + f)
     return list_
 
-print("backend: ", keras.backend.backend())
-
 # retrieving the abs path of the model / labels / flask python script
 basepath = os.path.abspath(".")
 # basepath = "/home/zhiwebby/mysite"
 
 print("basepath: ", basepath)
 
+# a function to download keras model extension(.h5) from URL and stock it in /app(current directory of heroku app)
+# sample implementation : weights_path = get_file('the name under the model will be saved', 'YOUR URL')
+model_downloaded_path = get_file("EfficientNetB2-nutricare-80.12.h5", "https://github.com/zhiwebby/ImagePredictionFoodSG/releases/download/v1.0/EfficientNetB2-nutricare-80.12.h5")
+
 # loading the model that was trained and fine-tuned
+# Commented out older models
 # MN_model = load_model(basepath + "/MN_model_trained.pb", compile = False)
 # EFN_model = load_model(basepath + "/EfficientNetB2-nutricare-99.11.pb", compile = False)
-EFN_model = load_model(basepath + "/EfficientNetB2-nutricare-80.12.pb", compile = False)
+# EFN_model = load_model(basepath + "/EfficientNetB2-nutricare-80.12.pb", compile = False)
+# Loading the h5 to prevent Tensorflow backend from causing a dyno timeout after 30 seconds
+EFN_model = load_model(model_downloaded_path, compile = False)
 
 # food_list = create_foodlist(basepath + "/foodsg/meta/labels.txt")
 food_list = create_foodlist(basepath + "/foodsg_for_431_labels/meta/labels.txt")
