@@ -35,10 +35,12 @@ basepath = os.path.abspath(".")
 print("basepath: ", basepath)
 
 # loading the model that was trained and fine-tuned
-MN_model = load_model(basepath + "/MN_model_trained.pb", compile = False)
-EFN_model = load_model(basepath + "/EfficientNetB2-nutricare-99.11.pb", compile = False)
+# MN_model = load_model(basepath + "/MN_model_trained.pb", compile = False)
+# EFN_model = load_model(basepath + "/EfficientNetB2-nutricare-99.11.pb", compile = False)
+EFN_model = load_model(basepath + "/EfficientNetB2-nutricare-80.12.pb", compile = False)
 
-food_list = create_foodlist(basepath + "/foodsg/meta/labels.txt")
+# food_list = create_foodlist(basepath + "/foodsg/meta/labels.txt")
+food_list = create_foodlist(basepath + "/foodsg_for_431_labels/meta/labels.txt")
 
 food_image_for_recognition = basepath + "/temp.jpg"
 
@@ -156,13 +158,14 @@ def predict_class_for_EFN_model(model, imageFile, size, size2, show = True):
 
     # does this mean it gets worse when we add more classes? will find out when doubling the dataset with other data
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['POST'])
 def handle_request():
     imageFile = request.files['image']
 
-    print("Predicting using MobileNetV2")
-
-    array_results_for_MN_model = predict_class(MN_model, imageFile, 299, True)
+    # MobileNetV2 will not be tested because of testing EfficientNet that Zhi Wen crawled
+    # print("Predicting using MobileNetV2")
+    #
+    # array_results_for_MN_model = predict_class(MN_model, imageFile, 299, True)
 
     print("Predicting using EfficientNetB2")
 
@@ -180,4 +183,7 @@ def handle_request():
 
     score = tf.nn.softmax(predictions[0])
 
-    return "This image most likely belongs to {}".format(array_results_for_MN_model[0])
+    return "This image most likely belongs to {}".format(array_results_for_EFN_model[0])
+
+if __name__=="__main__":
+    app.run(debug=True)

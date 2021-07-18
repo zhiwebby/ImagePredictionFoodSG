@@ -1,0 +1,431 @@
+aloe vera juice
+aloo gobi
+angled loofah
+ang_ku_kueh
+apple
+apple juice
+asparagus
+assam prawn
+avocado
+ayam_penyet
+bagel
+bak kwa
+baked bean
+baked chicken breast
+baked chicken drumstick
+baked cod
+baked lamb
+baked pork
+baked tempeh
+bak_chor_mee
+bak_kut_teh
+banana
+bandung
+ban_mian
+barley
+bean sprout
+beancurd roll
+beef
+beef rendang
+beef stew
+beef teppanyaki
+beehoon
+beer
+birdnest
+birdnest soup
+biscuit
+bittergourd
+black pepper crab
+blackcurrant juice
+blackcurrent drink
+boiled beef
+boiled chicken
+boiled chicken breast
+boiled pork
+braised chicken
+braised duck
+braised egg
+braised goose
+braised tofu
+brandy
+bread
+briyani
+broccoli
+brown rice
+bubble tea
+bubur_cha_cha
+bun
+butter crab
+butter prawn
+cabbage
+cake
+calamansi
+canned sardine
+canned tuna
+cantaloupe
+cappuccino
+carrot juice
+carrot_cake
+cashew
+cauliflower
+century egg
+cereal
+champagne
+chap chye
+chapati
+char siew
+char siew rice
+char siew sou
+char_kway_teow
+chawamushi
+chee_cheong_fun
+chendol
+cheng_tng
+cherry
+chicken
+chicken feet
+chicken intenstine
+chicken liver
+chicken masala
+chicken pie
+chicken rendang
+chicken soto
+chicken stew
+chicken tikka
+chicken yakitori
+chilli_crab
+chinese sausage
+chinese_mutton_soup
+chips
+chocolate
+chrysanthemum tea
+chwee_kueh
+chye sim
+cinnamon roll
+citrus drink
+claypot chicken
+claypot frog leg
+claypot_rice
+coconut water
+coleslaw
+cookie
+corn
+crab stick
+cracker
+cream puff
+croissant
+cucumber
+curry
+curry fish head
+curry_puff
+curry_rice
+cuttlefish
+cuttlefish ball
+dadar gulung
+daging masak kicap
+dark chocolate
+dragon fruit
+drunken prawn
+duck feet
+duck_rice
+durian
+eclair
+ee mee
+egg pancake
+egg tart
+eggplant
+fish ball
+fish curry
+fish cutlet
+fish head soup
+fish salad
+fish tofu
+fishball noodle
+fishcake
+fish_ball_noodle_soup
+fish_head_curry
+fish_soup
+french bean
+fried bacon
+fried chicken
+fried chicken breast
+fried chicken drumstick
+fried crab claw
+fried egg
+fried fish
+fried mutton
+fried noodle
+fried noodles
+fried pomfret
+fried pork
+fried prawn fritter
+fried squid
+fried tempeh
+fried tofu
+fruit cake
+fruit juice
+fruit punch
+fruit salad
+gin
+gin and tonic
+ginger tea
+glutinous rice
+goreng_pisang
+grape
+grape juice
+grapefruit
+grass jelly drink
+green bean soup
+grilled bacon
+grilled eel
+grilled lamb
+grilled pork
+guava
+hainanese_chicken_rice
+ham
+har gow
+hard boiled egg
+hash brown
+herbal black chicken soup
+herbal chicken soup
+herbal duck soup
+herbal jelly
+herbal mutton soup
+herbal tonic chicken
+hokkien_mee
+honeydew
+hong kong mee
+hor fun
+hot chocolate
+hot plate tofu
+huat kueh
+ice jelly
+ice soursop
+ice sweetcorn
+ice_kacang
+ikan bilis
+instant noodle
+jackfruit
+jellyfish
+kale
+kangkong
+kaya_toast
+ketupat
+kimchi soup
+kiwi
+kopi
+korean fried chicken
+kueh_seri_muka
+kung pao chicken
+kway teow
+kway_chap
+laksa
+lamb chop
+lassi
+lemon
+lemon chicken
+lemon juice
+lime
+lime juice
+lobster
+long bean
+longan
+lor mai kai
+lor_mee
+lotus root soup
+love_letters
+luncheon meat
+lychee
+macaroni
+mackerel
+mango
+mango juice
+mantou
+mapo tofu
+marshmellow
+mashed potato
+meat roll
+meatball
+mee bandung
+mee sua
+mee_chiang_kueh
+mee_goreng
+mee_rebus
+mee_siam
+mee_soto
+milk
+milk chocolate
+milkshake
+milo
+minced beef
+minced pork
+mixed nut
+mocha
+mooncake
+muah_chee
+muffin
+mui fan
+murtabak
+mushroom
+mutton
+mutton chop
+mutton curry
+mutton cutlet
+mutton stew
+naan
+nasi pattaya
+nian gao
+noodle
+nugget
+okra
+ondeh_ondeh
+orange
+orange juice
+orh nee
+otah
+ovaltine
+oyster omelette
+papadum
+papaya
+passion fruit
+pasta
+pau
+pea
+peach
+peanut
+pear
+persimmon
+pig intestine
+pig liver
+pig stomach
+pig trotter
+pineapple
+pineapple juice
+pineapple rice
+pineapple_tart
+plum
+poached cod
+poached egg
+pomelo
+popcorn
+popiah
+pork
+pork cutlet
+porridge
+potato
+prawn
+prawn curry
+prawn noodle
+prawn paste chicken
+pudding
+pulot hitam
+pumpkin
+pumpkin soup
+pumpkin stew
+rambutan
+raspberry
+red bean soup
+red wine
+rice
+rice cake
+rice dumpling
+roast beef
+roast chicken
+roast duck
+roasted chicken thigh
+roasted pork
+roasted pork belly
+rojak
+roti_john
+roti_prata
+sambal egg
+sambal french bean
+sambal prawn
+sambal squid
+sambal stingray
+sambal tofu
+sardine
+satay
+sausage
+sausage roll
+scrambled egg
+seafood claypot
+sesame roll
+shark fin soup
+sherry
+siew mai
+smoothie
+snow pea
+snow skin mooncake
+soba
+soon kueh
+soursop
+soyabean drink
+soy_sauce_chicken
+spare rib
+spinach
+spring chicken
+star fruit
+steam chicken
+steamed bun
+steamed crab
+steamed egg
+steamed fish
+steamed kueh lapis
+steamed pomfret
+steamed pork
+steamed prawn
+steamed tofu
+stir fried beef
+stir fried chicken
+stir fried frog leg
+stir fried pork
+stir fried prawn
+stir fried squid
+stir fried tempeh
+stout
+strawberry
+suckling pig
+sundae
+sup_kambing
+sweet and sour chicken
+sweet and sour fish
+sweet and sour pork
+sweet and sour prawn
+sweet potato soup
+swiss roll
+szechuan prawn
+tandoori chicken
+tang yuen
+tau suan
+tau_huay
+tea egg
+teh
+tempura prawn
+teriyaki chicken don
+thosai
+tofu
+tom yam soup
+tomato
+turnip cake
+tutu_kueh
+udon
+unagi don
+vodka
+waffle ice cream
+wanton noodle
+wanton soup
+wanton_mee
+watermelon
+wax gourd
+whisky
+white button mushroom
+white chocolate
+white wine
+winter gourd
+wonton
+yam rice
+yellow noodles
+yoghurt
+youtiao
+zucchini
