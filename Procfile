@@ -1,1 +1,1 @@
-web: gunicorn PythonAnywhere:app
+web: gunicorn prediction_alternative:app
