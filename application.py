@@ -30,7 +30,7 @@ import logging
 logging.getLogger("tensorflow").setLevel(logging.ERROR)
 
 # Flask boiler code
-app = flask.Flask(__name__)
+application = flask.Flask(__name__)
 
 def print_in_color(txt_msg, fore_tupple, back_tupple, ):
     # prints the text_msg in the foreground color specified by fore_tupple with the background specified by back_tupple
@@ -154,7 +154,7 @@ Changed model_path to github release
 # sample implementation : weights_path = get_file('the name under the model will be saved', 'YOUR URL')
 model_path = get_file("EfficientNetB2-nutricare-86.12.h5", "https://github.com/zhiwebby/ImagePredictionFoodSG/releases/download/v1.0.2/EfficientNetB2-nutricare-86.12.h5")
 
-@app.route('/', methods=['POST'])
+@application.route('/', methods=['POST'])
 def handle_request():
     # Calculate the duration of an operation
     start_time = time.monotonic()
@@ -206,5 +206,21 @@ def handle_request():
     print('seconds: ', time.monotonic() - start_time)
     return output_string
 
+
+@application.route('/', methods=['GET'])
+def showIndex():
+    # some bits of text for the page.
+    htmlForIndex = '''
+    <html>
+    <head>
+    <title>My Flask Application</title>
+    </head>
+    <body>
+    <h1>This is the Home page!</h1>
+    </body>
+    </html>
+    '''
+    return htmlForIndex
+
 if __name__=="__main__":
-    app.run(debug=True)
+    application.run()

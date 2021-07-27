@@ -1,1 +1,0 @@
-web: gunicorn prediction_alternative:app
