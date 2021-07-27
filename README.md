@@ -74,5 +74,12 @@ Under the Platform version, ensure that 3.3.3 (Recommended) is selected.<br/>
 Under Source code origin, ensure that Local file is selected.<br/>
 Select Choose file and upload the compressed file of the root directory of requirements.txt<br/>
 Ensure that the compressed file does not exceed the maximum size 512 MB.<br/>
-
+22. Wait for the environment to be created in a few minutes.<br/>
+23. Navigate to the dashboard page of your environment or click on your environment on the left side of your page.<br/>
+24. Copy the domain name of your environment for later.<br/>
+```For example: myflaskappenv.eba-example.ap-southeast-1.elasticbeanstalk.com```
+25. Type in the browser https://github.com/wangzksit/NutriCare/blob/main/app/src/main/java/com/example/nutricare/ImageRecognitionUtil/ImageRecognitionSingleton.kt and navigate to the page.<br/>
+26. Change the line 47.<br/>
+```val postUrl = "http://myflaskappenv.eba-example.ap-southeast-1.elasticbeanstalk.com" #Change to your own environment domain```
+28. 
 For full documentation of how to install AWS EB CLI: https://github.com/aws/aws-elastic-beanstalk-cli-setupk/<br/>
