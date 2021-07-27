@@ -77,9 +77,10 @@ Ensure that the compressed file does not exceed the maximum size 512 MB.<br/>
 22. Wait for the environment to be created in a few minutes.<br/>
 23. Navigate to the dashboard page of your environment or click on your environment on the left side of your page.<br/>
 24. Copy the domain name of your environment for later.<br/>
-```For example: myflaskappenv.eba-example.ap-southeast-1.elasticbeanstalk.com```
+```For example: myflaskappenv.eba-example.ap-southeast-1.elasticbeanstalk.com```<br/>
 25. Type in the browser https://github.com/wangzksit/NutriCare/blob/main/app/src/main/java/com/example/nutricare/ImageRecognitionUtil/ImageRecognitionSingleton.kt and navigate to the page.<br/>
 26. Change the line 47.<br/>
 ```val postUrl = "http://myflaskappenv.eba-example.ap-southeast-1.elasticbeanstalk.com" #Change to your own environment domain```
-28. 
+<br/>
+<br/>
 For full documentation of how to install AWS EB CLI: https://github.com/aws/aws-elastic-beanstalk-cli-setupk/<br/>
